@@ -16,18 +16,18 @@ async function loaded(reader) {
     });
     const json = await response.json();
     const label = json['data'][0]['confidences'][0]['label'];
-    results.innerHTML = `<br/><p>Your Plastic</p><img src="${reader.result}" width="300"><br/><p>Is this number:</p><img src="/blog/images/resin_code_${label}.png" width="300">`
+    results.innerHTML = `<br/><p>Your Plastic</p><img src="${reader.result}" width="200"><br/><p>Is this number:</p><img src="/blog/images/resin_code_${label}.png" width="200">`
 }
 
 export default function RecycleHelp() {
     return (
       <Layout recycleHelp>
         <header>
-            <h1>Categorize plastic by Number</h1>
+            <h1>What Plastic Number?</h1>
         </header>
         <label htmlFor={'photo'}>
             <div className={utilStyles.chooseFile}>
-                <AddAPhotoIcon color="secondary"/> Upload File
+                <AddAPhotoIcon color="secondary" className={utilStyles.photoIcon}/> Select Plastic Image
             </div>
         </label>
         <input id="photo" type="file" onInput={readFile} style={{display: 'none'}} />
