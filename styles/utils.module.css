@@ -50,3 +50,10 @@
   .lightText {
     color: #666;
   }
+
+  .chooseFile {
+    width: '20vw';
+    padding: 5;
+    border-color: green;
+    border: 10px;
+}
