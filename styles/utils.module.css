@@ -53,14 +53,21 @@
 
 .chooseFile {
   position: relative;
+  text-align: center;
   margin: 0;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 200px;
+  width: 380px;
   background-color: #b8aef1;
   border-radius: 3px;
+}
+
+.results {
+  margin: auto;
+  width: 70%;
+  padding: 20px;
 }
 
 .photoIcon {
