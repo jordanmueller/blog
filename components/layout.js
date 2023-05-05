@@ -3,7 +3,7 @@ import styles from './layout.module.css';
 import Link from 'next/link';
 
 const name = 'Jordan Mueller';
-export const siteTitle = 'Fun times on GitHub';
+export const siteTitle = "Jordan's GitHub Pages";
 
 export default function Layout({ children, home }) {
   return (
@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Jordan's Playgorund"
+          content="Jordan's Site"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />

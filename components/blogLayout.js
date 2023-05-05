@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Jordan Mueller';
-export const siteTitle = 'Fun times on GitHub';
+export const siteTitle = "Jordan's GitHub Pages";
 
 export default function BlogLayout({ children, home }) {
   return (
