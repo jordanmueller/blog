@@ -43,7 +43,7 @@ export default function RecycleHelp() {
         </header>
         <label htmlFor={'photo'}>
             <div className={utilStyles.chooseFile}>
-                <AddAPhotoIcon color="secondary" className={utilStyles.photoIcon}/> Select Plastic Image
+                <AddAPhotoIcon color="primary" className={utilStyles.photoIcon}/> Select Plastic Image
             </div>
         </label>
         <input id="photo" type="file" onInput={readFile} style={{display: 'none'}} />
